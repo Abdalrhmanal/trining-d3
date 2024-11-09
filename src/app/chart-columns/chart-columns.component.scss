@@ -1,0 +1,17 @@
+::ng-deep .bar {
+    fill: steelblue;
+}
+
+::ng-deep .bar:hover {
+    fill: orange;
+}
+
+::ng-deep .axis-label {
+    font-size: 12px;
+    fill: #333;
+}
+
+::ng-deep .axis path,
+::ng-deep .axis line {
+    stroke: #333;
+}

@@ -1,0 +1,35 @@
+#chart {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.code-box {
+  position: relative;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.code-box pre {
+  margin: 0;
+  font-size: 16px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.copy-button:hover {
+  background-color: #6a6a6a;
+}
